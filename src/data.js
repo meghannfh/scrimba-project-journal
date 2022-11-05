@@ -14,7 +14,7 @@ const data = [
         title: "Sketchr",
         tools: ["ejs", "css3", "js", "nodejs", "express", "mongodb"],
         demoUrl: "https://sketchr-production.up.railway.app/",
-        description: "Track and share your illustrative progress with Sketchr.io! Sketchr serves as your personal online sketchbook and will let you know how many days in a row each month you are able to contribute, but no pressure. Art-block? Grab a prompt from our prompt generator to give you some inspiration for your work.",
+        description: "Track and share your illustrative progress with Sketchr.io! Sketchr serves as your personal online sketchbook and will let you know how many days in a row each month you are able to contribute. Art-block? Grab a prompt from our prompt generator to give you some inspiration for your work.",
         contributors: ['meghann'],
         imageUrl: "https://res.cloudinary.com/dc1aiqs4p/image/upload/v1667412602/Screen_Shot_2022-11-02_at_12.15.53_gxalsd.png",
         repoURL: "https://github.com/meghannfh/sketchr"
