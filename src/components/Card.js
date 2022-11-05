@@ -28,7 +28,7 @@ export default function Card({item}){
         <div className="flex gap-4 p-6 bg-white min-w-min snap-center">
             <div className='w-72 rounded-md overflow-hidden relative'>
                 <img src={item.imageUrl} alt={"screenshot of" + item.title + "project"} className='object-cover h-full w-full'/>
-                <a href={item.repoUrl} className="uppercase absolute top-0 right-0 m-1 bg-pink-500 py-2 px-3 rounded-full text-white hover:text-pink-500 hover:bg-white" target="_blank" rel="noreferrer">view repo</a>
+                <a href={item.repoUrl} className="uppercase absolute top-0 right-0 m-1 bg-pink-500 py-2 px-3 rounded-full text-white hover:text-pink-500 hover:bg-white hover:cursor-pointer" target="_blank" rel="noreferrer">view repo</a>
             </div>
             <div className='w-96'>
                 <div className="flex items-center gap-3 my-2">
